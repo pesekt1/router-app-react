@@ -15,6 +15,8 @@ yarn start
 Set up git / GitHub and deploy to Heroku.
 
 
+## React info
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -23,6 +25,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Table of Contents
 
 - [Router app demo](#router-app-demo)
+  - [React info](#react-info)
   - [Table of Contents](#table-of-contents)
   - [Updating to New Releases](#updating-to-new-releases)
   - [Sending Feedback](#sending-feedback)
