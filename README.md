@@ -1,5 +1,7 @@
 # Router app demo
 
+## Routes
+
 Adding the routes:
 
 Install react-router-dom:
@@ -94,27 +96,3 @@ const NavBar = () => {
 Link uses anchor element but prevents its default behavior.
 
 Test again - bundle.js is downloaded once and then it is used because it contains all the code. No need to download it every time we navigate to a different page.
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
