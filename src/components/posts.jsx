@@ -1,9 +1,13 @@
 import React from "react";
 import queryString from "querystring";
+import URLSearchParams from "@ungap/url-search-params";
 
 const Posts = (props) => {
   const queryParams = queryString.parse(props.location.search);
   console.log(queryParams);
+
+  const sortBy = new URLSearchParams(props.location.search).get("sortBy");
+  console.log(sortBy);
 
   return (
     <div>
