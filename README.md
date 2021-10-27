@@ -1,11 +1,5 @@
 # Router app demo
 
-## Branches sequence:
-
-- start
-- routes
-- props-params
-
 ## props, route params, query string params
 
 ### Props
@@ -103,26 +97,4 @@ const Posts = (props) => {
 Result: (It is parsed as a string, if we need other types we need to do it differently.)
 ```javascript
 {approved: 'true', sortBy: 'newest'}
-```
-
-
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
-```
-
-```javascript
-
 ```
