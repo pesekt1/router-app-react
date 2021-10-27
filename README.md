@@ -1,12 +1,5 @@
 # Router app demo
 
-## Branches sequence:
-
-- start
-- routes
-- props-params
-- navigation
-
 ## Navigation
 
 ### another library for query params
