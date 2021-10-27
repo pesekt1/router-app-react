@@ -1,5 +1,5 @@
 import React from "react";
-import queryString from "query-string";
+import queryString from "querystring";
 
 const Posts = (props) => {
   const queryParams = queryString.parse(props.location.search);
