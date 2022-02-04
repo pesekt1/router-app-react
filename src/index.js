@@ -7,9 +7,11 @@ import { BrowserRouter } from "react-router-dom";
 
 //BrowserRouter uses the history object - for switching between pages
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 registerServiceWorker();
