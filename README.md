@@ -93,6 +93,6 @@ const NavBar = () => {
       ...
 ```
 
-Link uses anchor element but prevents its default behavior.
+Link uses anchor element internally, but prevents its default behavior.
 
 Test again - bundle.js is downloaded once and then it is used because it contains all the code. No need to download it every time we navigate to a different page.
