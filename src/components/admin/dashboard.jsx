@@ -9,8 +9,10 @@ const Dashboard = ({ match }) => {
     <div>
       <h1>Admin Dashboard</h1>
       <SideBar />
-      <Route path="/admin/users" component={Users} />
-      <Route path="/admin/posts" component={Posts} />
+      <div className="dashboard__content">
+        <Route path="/admin/users" component={Users} />
+        <Route path="/admin/posts" component={Posts} />
+      </div>
     </div>
   );
 };
