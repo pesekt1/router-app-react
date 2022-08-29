@@ -9,7 +9,7 @@ URLSearchParams library - also a library for query strings:
 yarn add @ungap/url-search-params
 ```
 
-Example: you need to you a get method with the key you are looking for:
+Example: you need to use a get method with the key you are looking for:
 ```javascript
 const sortBy = new URLSearchParams(props.location.search).get("sortBy");
 ```
